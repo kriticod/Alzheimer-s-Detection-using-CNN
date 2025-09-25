@@ -11,9 +11,9 @@ scans.
 Dataset Source: OASIS Brain MRI Images on Kaggle
 
 ## Prerequisites
--Python 3.8+
--Google Colab (recommended) or Jupyter Notebook
--Google Drive account (if using Colab)
+1. Python 3.8+
+2. Google Colab (recommended) or Jupyter Notebook
+3. Google Drive account (if using Colab)
 
 ##Setup Instructions
 1. Download the Dataset
@@ -60,42 +60,29 @@ print(os.listdir(extract_path))
 
 ## Running the Code
 
-Open the main notebook (Alzheimers
-CNN
-_
-_
-Explainability.ipynb) in Google Colab or Jupyter
-Notebook
-Make sure to update any file paths in the notebook to match where you extracted the dataset
-Run the cells in sequential order
-Code Structure
-Alzheimers
-CNN
-_
-_
-Explainability.ipynb: Main notebook containing data preprocessing, model
-training, evaluation, and explainability techniques
-Explainability Methods Implemented
-●
-●
-Grad-CAM visualizations for CNN interpretability
-LIME
-Expected Results
+1. Open the main notebook (Alzheimers_CNN_Explainability.ipynb) in Google Colab or Jupyter Notebook
+2. Make sure to update any file paths in the notebook to match where you extracted the dataset
+3. Run the cells in sequential order
+
+## Code Structure
+Alzheimers_CNN_Explainability.ipynb: Main notebook containing data preprocessing, modeltraining, evaluation, and explainability techniques
+
+## Explainability Methods Implemented
+1. Grad-CAM visualizations for CNN interpretability
+2. LIME
+3. Expected Results
+   
 After running the code, you should see:
-●
-●
-●
-Model training and validation metrics for all the models (accuracy, loss)
-Confusion matrix for model evaluation
-Explainability visualizations highlighting regions of interest in brain MRIs
-Troubleshooting
-●
-●
-●
+1. Model training and validation metrics for all the models (accuracy, loss)
+2. Confusion matrix for model evaluation
+3. Explainability visualizations highlighting regions of interest in brain MRIs
+4. Troubleshooting
+
 If you encounter memory issues in Colab, try reducing batch sizes or using Colab Pro
 Ensure TensorFlow version is compatible with the code (TF 2.x recommended)
 If paths are incorrect, update them according to your specific directory structure
-Additional Notes
-●
+
+## Additional Notes
+
 The jupyter notebook file is in the .ipynb format for your convenience, however these are the
 instructions to run the code again.
