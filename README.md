@@ -15,7 +15,7 @@ Dataset Source: OASIS Brain MRI Images on Kaggle
 2. Google Colab (recommended) or Jupyter Notebook
 3. Google Drive account (if using Colab)
 
-##Setup Instructions
+## Setup Instructions
 1. Download the Dataset
 2. Download the dataset from Kaggle
 3. You need a Kaggle account to download the dataset
@@ -41,22 +41,23 @@ opencv-python gradcam
 
 Run the following code to extract the dataset:
 
-python
-import zipfile
-import os
-#For Google Colab (adjust path as needed)
-zip_path = '/content/drive/MyDrive/Research Project/archive.zip'
-extract_path = '/content/Research_ProjectData'_
-#For local environment (adjust path as needed
-#zip_path = 'path/to/archive.zip'
-#extract_path = 'Research_ProjectData'
-#Create extraction directory if it doesn't exist
-os.makedirs(extract_path, exist_ok=True)
+python  
+import zipfile  
+import os  
+#For Google Colab (adjust path as needed)  
+zip_path = '/content/drive/MyDrive/Research Project/archive.zip'  
+extract_path = '/content/Research_ProjectData'  
+#For local environment (adjust path as needed  
+#zip_path = 'path/to/archive.zip'  
+#extract_path = 'Research_ProjectData'  
+#Create extraction directory if it doesn't exist  
+os.makedirs(extract_path, exist_ok=True)    
+  
 
-#Extract the dataset
-with zipfile.ZipFile(zip_path,zip_ref.extractall(extract_path)'r') as zip_ref:
-#Verify extraction
-print(os.listdir(extract_path))
+#Extract the dataset  
+with zipfile.ZipFile(zip_path,zip_ref.extractall(extract_path)'r') as zip_ref:  
+#Verify extraction  
+print(os.listdir(extract_path))  
 
 ## Running the Code
 
